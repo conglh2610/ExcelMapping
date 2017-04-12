@@ -1,0 +1,6 @@
+JAK111.txtUserID = .strUserID
+	If(strLastUpdatedDate.Year = "0") Then
+		JAK111.txtLastUpdatedDate = String.Empty
+	Else
+		JAK111.txtLastUpdatedDate = CType(.dteLastUpdatedDate)
+	End IF
